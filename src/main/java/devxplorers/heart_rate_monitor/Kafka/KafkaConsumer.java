@@ -28,7 +28,7 @@ public class KafkaConsumer {
 
     private static final int HIGH_HEART_RATE = 100;
     private static final int LOW_HEART_RATE = 60;
-    private static final String TEST_PHONE_NUMBER = "+33784828928";
+    private static final String TEST_PHONE_NUMBER = ""; // numero de telephone pour le test de twilio
     private static final int WINDOW_SIZE = 10;
 
     private Queue<Integer> recentHeartRates = new LinkedList<>();
